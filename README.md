@@ -2,7 +2,7 @@
 <img src=".github/logo_rocketseat.png" width='250'>
 </div>
 
-## 🚀 Maratona Dicover
+## 🚀 Maratona Discover
 
 <div align='center'>
 <img src=".github/thumbnail.png">
@@ -49,4 +49,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Feito com ♥ by [aalvs](https://app.rocketseat.com.br/me/aalvs) durante a [Maratona Dicover](https://rocketseat.com.br/).
+Feito com ♥ by [aalvs](https://app.rocketseat.com.br/me/aalvs) durante a [Maratona Discover](https://rocketseat.com.br/).
