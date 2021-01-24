@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* Global */
 :root {
     --bg-light: #f0f2f5;
     --dark-blue: #363f5f;
     --c-green: #2d4a22;
     --c-green-t: #49aa26;
+    --c-green-h: #3dd705;
     --c-gray: #969cb3;
     --c-income: #12a454;
     --c-expense: #e92929;
@@ -20,11 +23,28 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    font-size: 93.75%; /* 15px */
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 .wrapper {
     max-width: min(90vw, 800px);
     margin: 0 auto;
 }
 
+/* Titles */
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
@@ -33,6 +53,50 @@ h2 {
     font-weight: normal;
 }
 
+/* Links and Buttons */
+a {
+    color: var(--c-green-t);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--c-green-h);
+}
+
+.button.new {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: white;
+    background: var(--c-green-t);
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--c-green-h);
+}
+
+.button.cancel {
+    color: var(--c-expense);
+    border: 2px solid var(--c-expense);
+    border-radius: 0.2rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.button.cancel:hover {
+    opacity: 1;
+}
 /* Header */
 header {
     background: var(--c-green);
@@ -66,6 +130,10 @@ header {
 .card h3 {
     font-weight: normal;
     font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card p {
@@ -80,9 +148,16 @@ header {
 }
 
 /* Table */
+#transaction {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
+    color: var(--c-gray);
 }
 
 #data-table thead th {
@@ -123,10 +198,92 @@ td.date {
     color: var(--c-gray);
 }
 
+/* Modal */
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+}
+
+.modal {
+    background: whitesmoke;
+    padding: 2.4rem;
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Form */
+.form {
+    max-width: 500px;
+}
+
+.form h2 {
+    margin-top: 0;
+}
+
+input {
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    width: 100%;
+    outline: none;
+    height: 50px;
+}
+
+.input-group {
+    margin-top: 0.8rem;
+}
+
+.input-group small {
+    opacity: 0.4;
+}
+
+.input-group.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group.actions .button,
+.input-group.actions button {
+    width: 48%;
+}
+
 /* Footer */
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
     opacity: 0.6;
+}
+
+/* Responsive */
+
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
 }
