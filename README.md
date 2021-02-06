@@ -12,13 +12,20 @@
 
 # ⚙ Funcionalidades
 
-- ;
+- Soma das entradas;
+- Soma das saídas;
+- Total em caixa;
+- Incremento de uma nova entrada ou saída;
+- Decremento de uma entrada ou saída;
 
 # 📚 O que eu aprendi com o projeto!
 
 - HTML semântico;
 - Reset CSS;
 - Hierarquia de especificidade CSS;
+- Armazenamento no localStorage;
+- Metódos Split e Replace;
+- Formatação de dados com JS;
 
 # 💻 Tecnologias
 
@@ -26,7 +33,7 @@
 <br/>
 <a href='https://www.typescriptlang.org/'>CSS3</a>
 <br/>
-
+<a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'>JavaScript</a>
 ## 🤔 Como contribuir
 
 - Faça um fork desse repositório;
