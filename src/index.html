@@ -38,7 +38,7 @@
         <section id="transaction">
             <h2 class="sr-only">Transações</h2>
 
-            <a onclick="Modal.open()" class="button new">+ Nova transação</a>
+            <a onclick="Modal.toggleModal()" class="button new">+ Nova transação</a>
 
             <table id="data-table">
                 <thead>
@@ -50,30 +50,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td class="description">Luz</td>
-                        <td class="expense">- R$ 500,00</td>
-                        <td class="date">23/01/2021</td>
-                        <td>
-                            <img src="../assets/minus.svg" alt="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="description">Criação website</td>
-                        <td class="income">R$ 5.000,00</td>
-                        <td class="date">23/01/2021</td>
-                        <td>
-                            <img src="../assets/plus.svg" alt="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="description">Internet</td>
-                        <td class="expense">- R$ 200,00</td>
-                        <td class="date">23/01/2021</td>
-                        <td>
-                            <img src="../assets/minus.svg" alt="">
-                        </td>
-                    </tr>
+                    
                 </tbody>
             </table>
         </section>
@@ -98,7 +75,7 @@
                         <input type="date" id="date" name="date" placeholder="01/01/2021">
                     </div>
                     <div class="input-group actions">
-                        <a onclick="Modal.close()" class="button cancel">Cancelar</a>
+                        <a onclick="Modal.toggleModal()" class="button cancel">Cancelar</a>
                         <button>Salvar</button>
                     </div>
                 </form>
