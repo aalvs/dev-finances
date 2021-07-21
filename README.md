@@ -4,9 +4,7 @@
 
 ## 🚀 Maratona Discover
 
-<div align='center'>
-<img src=".github/thumbnail.png">
-</div>
+<a href='https://pt-br.reactjs.org/' target='_blank'>Clique aqui para ver online!</a>
 
 ---
 
@@ -34,21 +32,6 @@
 <a href='https://www.typescriptlang.org/'>CSS3</a>
 <br/>
 <a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'>JavaScript</a>
-## 🤔 Como contribuir
-
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
-
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
-
-Você pode enviar quantos PR's deseja, ficarei feliz em analisá-los e aceitá-los! 
-
-E se você tiver alguma dúvida sobre o projeto conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/aalvs/)
-
-Obrigado!
-
 
 # 📝 Licença
 
