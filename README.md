@@ -4,7 +4,7 @@
 
 ## 🚀 Maratona Discover
 
-<a href='https://pt-br.reactjs.org/' target='_blank'>Clique aqui para ver online!</a>
+<a href='https://aalvs.github.io/dev-finances/src/' target='_blank'>Clique aqui para ver online!</a>
 
 ---
 
