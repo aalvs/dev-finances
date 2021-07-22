@@ -23,9 +23,9 @@
 
 # 💻 Tecnologias
 
-<a href='https://pt-br.reactjs.org/'>HTML5</a>
+<a href='https://www.w3schools.com/html/'>HTML5</a>
 <br/>
-<a href='https://www.typescriptlang.org/'>CSS3</a>
+<a href='https://www.w3schools.com/css/'>CSS3</a>
 <br/>
 <a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'>JavaScript</a>
 
