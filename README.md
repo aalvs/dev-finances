@@ -2,10 +2,6 @@
 <img src=".github/logo_rocketseat.png" width='250'>
 </div>
 
-## 🚀 Maratona Discover
-
-<a href='https://aalvs.github.io/dev-finances/src/' target='_blank'>Clique aqui para ver online!</a>
-
 ---
 
 # ⚙ Funcionalidades
